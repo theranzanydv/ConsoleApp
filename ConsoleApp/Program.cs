@@ -1,12 +1,11 @@
-﻿
-using ConsoleApp;
+﻿using ConsoleApp;
 
 Console.WriteLine("\tSelect From the Numbers below:");
-WriteLine.Cw("\t1. Prime");
-WriteLine.Cw("\t2. OddEven");
-WriteLine.Cw("\t3. Swap Numbers");
-WriteLine.Cw("\t4. Array Search");
-WriteLine.Cw("\nEnter a number from above: ");
+Console.Write("\t1. Prime");
+Console.Write("\t2. OddEven");
+Console.Write("\t3. Swap Numbers");
+Console.Write("\t4. Array Search");
+Console.WriteLine("\nEnter a number from above: ");
 
 
 string? input1 = Console.ReadLine();

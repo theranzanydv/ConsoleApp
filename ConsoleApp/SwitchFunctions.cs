@@ -1,6 +1,5 @@
 ﻿using ConsoleApp.Week3;
 
-
 namespace ConsoleApp
 {
     internal class SwitchFunctions
@@ -22,9 +21,9 @@ namespace ConsoleApp
             Console.Write("Enter a number : ");
             string? input3 = Console.ReadLine();
             input3 = string.IsNullOrEmpty(input3) ? "0" : input3;
-            int OddEvenInput = Convert.ToInt32(input3);
+            int oddEvenInput = Convert.ToInt32(input3);
             OddEven oe = new();
-            oe.IsOdd(OddEvenInput);
+            oe.IsOdd(oddEvenInput);
         }
 
         public static void SwapVariables()
@@ -50,7 +49,6 @@ namespace ConsoleApp
             term = string.IsNullOrEmpty(term) ? "Apple" : term;
             ArraySearch search = new();
             search.SearchTerm(term);
-
         }
     }
 }
