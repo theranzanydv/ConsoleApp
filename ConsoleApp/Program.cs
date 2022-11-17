@@ -18,21 +18,16 @@ switch (inputInt)
     case 1:
         SwitchFunctions.FindPrime();
         break;
-
     case 2:
         SwitchFunctions.OddEven();
         break;
-
     case 3:
         SwitchFunctions.SwapVariables();
         break;
-
     case 4:
         SwitchFunctions.FindInArray();
         break;
-
     default:
         Console.WriteLine("No Value Entered");
         break;
-
 }
