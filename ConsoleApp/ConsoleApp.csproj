@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Week4" />
+    <None Remove="aa.html" />
+    <None Remove="styles.css" />
   </ItemGroup>
 
 </Project>
